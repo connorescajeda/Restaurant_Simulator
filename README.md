@@ -1,28 +1,30 @@
 # Restaurant Simulator
 
 ## What is it?
-Restaurant Simulator is meant to be a hyper-realistic fast-food restaurant management game.
+Restaurant Simulator is meant to be a hyper-realistic fast-food restaurant management game. It allows for you to run a restaurant as a manager where you must keep up the stock of your inventory, micromanage your prices based on supply and demand, and see how long you successfully keep the business a float!
 
 ### What was used in the making?
-I used a Python package called "pygame" which allows for many features that make creating games
-a lot easier. It includes things such as event objects to create detectors for things like mouse clicks or scrolls.
+The GUI was created using the JavaFX library combined with Scenebuilder to allow for an easily creatable GUI that has a lot of functionalities. Then the rest of the program is created using Java 11.
 
 
 ### Interesting features
-The tools I had at my disposal when I created this game weren't exactly the most user friendly for graphics or
-user interaction so I had a lot of challenges with creating something as simple as a button. The buttons within this
-game are completely created by me as their own object class. The other really difficult thing is that anytime anything on the screen needs to change I have to make sure that everything gets redrawn on the screen so nothing is static on the screen. Everything has to get dynamically put on each time you get a banana or the timer counts up. Yes, very inefficient but like I said these were the only tools at my disposal.
+This program while not having the most visually appealing GUI, it is jampacked with features beneath the hood. It has a "shop" where you are able to purchase all of the items that your restaurant sells and you can buy them in varying different amounts and the buy prices vary day by day so you have to always been checking in to see when you can get the best deals on items. You can also adjust all the prices of your items to however cheap or expensive you would like but be careful with that because with prices change, your customers might look for a new place to eat at or start buying the cheaper items. Along with this, the more money you make in a day the more people are going to be coming back the next day to get a meal from you. Then finally one last feature to really automate the system is auto-buy. After purchasing the feature for 1500$ in the game, you can set an amount of a respective item to buy and at what point it should get bought but you have to keep watch of your customer counts per day to make sure you are able to meet the demands of the ravenous customers.
 
 ### Final Thoughts
-Overall, I really enjoyed the time I had when I was making this. It is what made me fall in love with programming and computer science and is a huge reason I am on the path I am on. I hope one day to get the time to come back and create another incremental game and see just how far I have come from my first real project. I hope you enjoyed seeing my first real creation.
+Overall, I spent a lot of time really trying to make the features of this game really complex and deep while being very simple to navigate and use. This project had lots and lots of hurdles and challenges in the creation but working through them and finding ways to solve them was absolutely one of the best feelings ever. I am really happy with how this application turned out and hope that as time goes on I can revisit something like this project and make huge improvements to it by maybe doing something with actual market data and creating a very nice GUI since this project was one of my first using a GUI.
 
 
 ### Pictures of a games progression
-* This is what the start of a game looks before you've started your banana empire.
-![Start of a game](https://github.com/connorescajeda/Banana-Bonanza/blob/main/BB_1.png)
-* This is how the game looks after you started to gain some bananas and bought some banana buildings to increase your production.
- ![Middle of game](https://github.com/connorescajeda/Banana-Bonanza/blob/main/BB_2.png)
-* This is what happens when you buy the Banana Takeover building, and if you see it offers you the chance to restart in the middle.
- ![Hostile Takeover](https://github.com/connorescajeda/Banana-Bonanza/blob/main/BB_3.png)
-* This is what happens when you have returned to a new universe, if you notice the buildings now all create more bananas than the last.
- ![After Takeover](https://github.com/connorescajeda/Banana-Bonanza/blob/main/BB_4.png)
+Below will first be a few pictures of the pages of the game: Daily Recap, Shop, Adjust Prices, and Auto Buy
+* This is the Daily Recap Page, note the next day button used to progress the game
+ ![Recap](https://github.com/connorescajeda/Restaurant_Simulator/blob/master/sim1.png)
+* This is the Shop page, to use it you click the button on the side with the amount you want to buy and then buy whatever you want. Also note that buy price is listed on the bottom right.
+ ![Shop](https://github.com/connorescajeda/Restaurant_Simulator/blob/master/sim2.png)
+* This is the Price Adjustment page, just type in the prices you want your items to be.
+ ![Adjust Prices](https://github.com/connorescajeda/Restaurant_Simulator/blob/master/sim3.png)
+* this is the Auto Buy page where you also just type in the values you desire for each item AFTER you have purchased it on the right.
+ ![Autobuy](https://github.com/connorescajeda/Restaurant_Simulator/blob/master/sim4.png)
+* This is the Recap page after simulating a day.
+  ![Adjust Prices](https://github.com/connorescajeda/Restaurant_Simulator/blob/master/sim5.png)
+* This is the Shop page after simulating a few days, notice the changing prices of buying certain items and how the game highlights items in low stock to help you know what you need to get.
+  ![Autobuy](https://github.com/connorescajeda/Restaurant_Simulator/blob/master/sim6.png)
